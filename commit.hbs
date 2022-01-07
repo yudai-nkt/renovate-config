@@ -6,7 +6,7 @@
 {{~/if}}
 
 {{~!-- commit link --}}{{~#if hash}} {{#if @root.linkReferences~}}
-  ([`{{shortHash}}`](https://github.com/yudai-nkt/renovate-config/commit/{{hash}}))
+  ([`{{shortHash}}`]({{@root.host}}/{{@root.owner}}/{{@root.repository}}/commit/{{hash}}))
 {{~else}}
   {{~shortHash}}
 {{~/if}}{{~/if}}
