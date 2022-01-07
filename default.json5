@@ -1,0 +1,31 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: ["config:base", ":semanticPrefixChore"],
+  timezone: "Asia/Tokyo",
+  schedule: ["every weekend"],
+  labels: ["renovate"],
+  semanticCommitType: "chore",
+  npm: {
+    // Avoid introduction of potentially unpublished versions.
+    stabilityDays: 3,
+    rangeStrategy: "bump",
+    packageRules: [
+      {
+        matchDepTypes: ["peerDependencies", "engines"],
+        rangeStrategy: "widen",
+      },
+      {
+        matchUpdateTypes: ["minor", "patch"],
+        automerge: true,
+      },
+    ],
+    postUpdateOptions: ["npmDedupe"],
+  },
+  // Commit security updates as fix to immediately trigger a new semantic-release.
+  vulnerabilityAlerts: {
+    enabled: true,
+    labels: ["renovate", "security"],
+    semanticCommitType: "fix",
+    semanticCommitScope: "security",
+  },
+}
