@@ -31,7 +31,7 @@
     "@types/semantic-release": "^17.2.3",
     "conventional-changelog-conventionalcommits": "^4.6.3",
     "husky": "^7.0.4",
-    "json5": "^2.2.0",
+    "json5": "^2.2.1",
     "lint-staged": "^12.3.7",
     "prettier": "^2.6.0",
     "renovate": "^31.97.3",
