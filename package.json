@@ -5,7 +5,6 @@
   "description": "My shareable config for Renovate",
   "main": "index.js",
   "scripts": {
-    "build": "json5 --space 2 --out-file default.json default.json5",
     "test": "RENOVATE_CONFIG_FILE=default.json5 renovate-config-validator",
     "prepare": "husky install"
   },

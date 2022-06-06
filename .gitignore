@@ -1,6 +1,3 @@
-# Only @semantic-release/git should commit changes to default.json
-default.json
-
 # Logs
 logs
 *.log

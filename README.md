@@ -17,7 +17,7 @@ Just add `github>yudai-nkt/renovate-config` to extends in your Renovate configur
 
 ```json
 {
-  "extends": "github>yudai-nkt/renovate-config"
+  "extends": "github>yudai-nkt/renovate-config:default.json5"
 }
 ```
 
