@@ -34,7 +34,7 @@
     "json5": "^2.2.1",
     "lint-staged": "^13.0.0",
     "prettier": "^2.6.2",
-    "renovate": "^31.97.3",
+    "renovate": "^32.76.1",
     "semantic-release": "^19.0.2"
   }
 }
