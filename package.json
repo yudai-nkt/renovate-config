@@ -30,7 +30,7 @@
     "@semantic-release/github": "^8.0.4",
     "@types/semantic-release": "^17.2.3",
     "conventional-changelog-conventionalcommits": "^4.6.3",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "json5": "^2.2.1",
     "lint-staged": "^12.5.0",
     "prettier": "^2.6.2",
