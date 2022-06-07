@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/yudai-nkt/renovate-config/compare/v1.1.0...v2.0.0) (2022-06-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename config to base.json5
+
+### Features
+
+* rename config to base.json5 ([`fef4289`](https://github.com/yudai-nkt/renovate-config/commit/fef4289b84973d59b5012d5cd14a304cf6a9d11b))
+* revise update strategy for vulnerability ([`557685b`](https://github.com/yudai-nkt/renovate-config/commit/557685b19e94bf0344042671a5f6fe2cbf185970))
+
 ## [1.1.0](https://github.com/yudai-nkt/renovate-config/compare/v1.0.0...v1.1.0) (2022-06-06)
 
 
