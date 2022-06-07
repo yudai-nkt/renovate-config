@@ -21,11 +21,20 @@
     ],
     postUpdateOptions: ["npmDedupe"],
   },
-  // Commit security updates as fix to immediately trigger a new semantic-release.
   vulnerabilityAlerts: {
     enabled: true,
     labels: ["renovate", "security"],
-    semanticCommitType: "fix",
+    // PR should be made and merged ASAP.
+    schedule: ["at any time"],
+    stabilityDays: 0,
     semanticCommitScope: "security",
+    packageRules: [
+      {
+        // Security updates for production dependencies should be marked as `fix`
+        // so that semantic-release can be immediately triggered.
+        matchDepTypes: ["dependencies", "peerDependencies"],
+        semanticCommitType: "fix",
+      },
+    ],
   },
 }
