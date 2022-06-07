@@ -1,26 +1,9 @@
 {
   "private": true,
-  "name": "@yudai-nkt/renovate-config",
-  "version": "1.0.0",
-  "description": "My shareable config for Renovate",
-  "main": "index.js",
   "scripts": {
     "test": "RENOVATE_CONFIG_FILE=default.json5 renovate-config-validator",
     "prepare": "husky install"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/yudai-nkt/renovate-config.git"
-  },
-  "keywords": [
-    "renovate"
-  ],
-  "author": "Yudai Nakata <yudai.nkt@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yudai-nkt/renovate-config/issues"
-  },
-  "homepage": "https://github.com/yudai-nkt/renovate-config#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
