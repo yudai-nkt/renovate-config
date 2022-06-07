@@ -13,11 +13,11 @@ Renovate fetches this config from the GitHub repository.
 
 ## Usage
 
-Just add `github>yudai-nkt/renovate-config` to extends in your Renovate configuration:
+Just add `github>yudai-nkt/renovate-config:base.json5` to extends in your Renovate configuration:
 
 ```json
 {
-  "extends": "github>yudai-nkt/renovate-config:default.json5"
+  "extends": "github>yudai-nkt/renovate-config:base.json5"
 }
 ```
 

@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "test": "RENOVATE_CONFIG_FILE=default.json5 renovate-config-validator",
+    "test": "RENOVATE_CONFIG_FILE=base.json5 renovate-config-validator",
     "prepare": "husky install"
   },
   "devDependencies": {

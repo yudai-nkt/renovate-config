@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["local>yudai-nkt/renovate-config:default.json5"],
+  "extends": ["local>yudai-nkt/renovate-config:base.json5"],
   "packageRules": [
     {
       "matchPackageNames": ["renovate"],
