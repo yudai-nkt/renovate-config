@@ -16,6 +16,6 @@
     "lint-staged": "^13.0.1",
     "prettier": "^2.6.2",
     "renovate": "^32.76.1",
-    "semantic-release": "^19.0.2"
+    "semantic-release": "^19.0.3"
   }
 }
