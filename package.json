@@ -15,7 +15,7 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
-    "renovate": "^32.76.1",
+    "renovate": "^32.241.11",
     "semantic-release": "^19.0.5"
   }
 }
