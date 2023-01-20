@@ -10,7 +10,7 @@
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.7",
-    "@types/semantic-release": "^17.2.4",
+    "@types/semantic-release": "^17.2.5",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
