@@ -14,7 +14,7 @@
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.1",
-    "prettier": "^2.8.7",
+    "prettier": "^2.8.8",
     "renovate": "^32.241.11",
     "semantic-release": "^19.0.5"
   }
