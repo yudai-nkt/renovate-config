@@ -9,13 +9,13 @@
     "@commitlint/config-conventional": "^17.8.1",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^8.1.0",
+    "@semantic-release/github": "^10.1.7",
     "@types/semantic-release": "^17.2.11",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.3.0",
     "prettier": "^2.8.8",
     "renovate": "^32.241.11",
-    "semantic-release": "^19.0.5"
+    "semantic-release": "^24.1.0"
   }
 }
